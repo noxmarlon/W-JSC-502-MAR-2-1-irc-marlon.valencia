@@ -1,0 +1,103 @@
+html, body {
+  position: relative;
+  height: 100vh;
+}
+
+#root, .app {
+  height: 100%;
+}
+
+body {
+  background-color: #000000;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.app-content {
+  height: calc(100% - 53px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.idbar {
+  background-color: #0000005e;
+  text-align: center;
+  padding: 12px;
+  border-bottom: solid 1px #ffffff8f;
+}
+
+.idbar h1 {
+  margin: 0;
+  color: #ffffff5e;
+  font-size: 18px;;
+}
+
+#users-list {
+  padding: 8px;
+}
+
+#users-list li{
+  padding: 15px;
+  list-style: none;
+  border-bottom: solid 1px #ffffff0a;
+}
+
+#body-users .the-users {
+  padding: 15px;
+  border-top: 0px;
+}
+
+#login {
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1000px;
+  width: 1000px;
+}
+
+#login h2 {
+  color: white;
+}
+
+#login-form input
+{
+  height: 35px;
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff36;
+  color: #fff;
+  text-indent: 15px;
+}
+
+#login-form button
+{
+  margin-left: 10px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffffc7;
+  cursor: pointer;
+}
+
+
+#login-submit 
+{
+  color: black;
+}
+
+#channels 
+{
+    height: 200px;
+    width: 200px;
+    /* background-color: red; */
+}
+
+#commands {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  padding: 35px;
+  border: solid 1px #ffffff46;
+  color: #fff;
+}

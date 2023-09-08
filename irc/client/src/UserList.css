@@ -1,0 +1,23 @@
+#users {
+    width: 266px; 
+    font-size: 18px;
+    color: #fff;
+    background-color: #0d0d0d4f;
+    border-left: solid 1px #ffffff46;
+    /* border-right: solid 1px #ffffffcc; */
+    border-bottom: solid 1px #ffffff46;
+    border-top: solid 1px #ffffff46;   
+    padding: 35px;
+    /* margin-right: 5px; */
+}
+    
+#users h2 {
+    border-left: 0;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(8, 224, 175);
+    text-align: center;
+    margin-top: -5px;
+    border-bottom: solid;
+}
